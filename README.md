@@ -35,8 +35,10 @@ As a test I pressed a powerful external light to the front surface of the board 
 Conclusion
 ----------
 
-FR-4 apparently absorbs a lot more light that I thought. It doesn't seem like all that much when an LED only has to go through 1.6mm of it but in my tests 15mm was the limit of transmission with the aid of the copper pours. I estimate each LED was putting out a third of a lumen.
+FR-4 apparently absorbs a lot more light that I thought. It doesn't seem like all that much when an LED only has to go through 1.6mm of it but in my tests 15mm was the limit of transmission with the aid of the copper pours. I estimate each LED was putting out a third of a lumen, so the entire board had about 2.6.
 
 Fiberglass is an anisotropic material but I'm not sure how its optical properties change with orientation to the weave. Would light travel any better front-to-back through a PCB 10x as thick? It seems like the glass fiber would absorb less light than the epoxy since glass is kinda known for its transparency but there's a lot more scattering surfaces parallel to the fibers so light transmission might be worse in this orientation. Transmissive properties may differ with wavelength as well.
 
-In a future rev I would like to try cramming an unreasonable amount of LEDs into the board but I think this method of illumination is a dead end. The oreo construction method might prove useful for other projects and should be explored further.
+In a future rev I would like to try cramming an unreasonable amount of LEDs into the board but I think this method of illumination is a dead end. The ultimate limit is the thermal dissipation possible with 0603 LEDs that are buried inside FR-4. Larger (and brighter) packages will not fit within the 1.6mm PCB.
+
+The oreo construction method might prove useful for other projects and should be explored further.
